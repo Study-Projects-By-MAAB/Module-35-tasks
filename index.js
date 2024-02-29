@@ -16,14 +16,14 @@ const taskOneA = () => {
         console.log('this message display after 5 sec');
     }, 5000)
 }
-// taskOneA()
+taskOneA()
 
 const delayedGreeting = (name, delayTime) => {
     setTimeout(() => {
         console.log(`Hello, ${name}!`);
     }, delayTime);
 }
-// delayedGreeting('Alice', 2000)
+delayedGreeting('Alice', 2000)
 
 /* Task - 2
 The function tellJoke() below logs a funny message every 2 seconds and after 10 seconds, it stops. Complete the code below and see the output.
